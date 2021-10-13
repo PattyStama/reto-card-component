@@ -1,0 +1,25 @@
+section{ 
+    position:relative;
+    justify-content: center;
+    align-self: center;
+    margin-left: 50px;
+    width: 60%;
+    height: 265px;
+}   
+
+.article2{
+    width: 85%;
+    order: 2;
+}
+
+.article1{
+    width: 45%;
+    order: 1;
+}
+
+
+.contenedor-pral{
+    display:inline-flex;
+    flex-direction: row-reverse;   
+}
+ 

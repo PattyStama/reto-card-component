@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Inter', sans-serif;
+}
+
+section{
+    background-color: hsl(244, 38%, 16%);
+    margin-top: 55px;
+    border-radius: 15px;
+    width: 200px;
+    height: 700px;
+    position: absolute;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 320px;
+    margin-left: 25px;
+    align-self: center;
+}
+
+.contenedor-pral .article1{
+    min-width: 320px;
+    height: 264px;
+    background-color: hsl(277, 64%, 61%);
+    border-radius: 15px 15px 0 0px;
+}
+
+.article1 span{
+    background-image: url(./images/image-header-desktop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    min-width: 320px;
+    height: 298px;
+    display:flex;
+    opacity: 0.5;
+    overflow: hidden;
+    border-radius: 15px 15px 0 0px;  
+}
+
+.article2{
+    text-align: center;
+}
+
+.article2 h1{
+    font-size: 2.5rem;
+    color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 0 auto;
+}
+
+h1 span{
+    color: hsl(277, 64%, 61%);
+}
+
+.article2 p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 25px;
+    font-size: 1.5rem;
+}
+
+.article2 ul{
+    margin-top: 50px; 
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    color: white;
+    list-style: none;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.article2 li{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 1.5rem;
+}
+
